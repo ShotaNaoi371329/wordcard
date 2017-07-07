@@ -33,7 +33,7 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
         
         self.view.addSubview(firstLabel)
         
-        secondLabel = UILabel(frame: CGRect(x: viewX, y: viewY*6, width: viewX*2, height: viewY*2))
+        secondLabel = UILabel(frame: CGRect(x: viewX, y: viewY*5, width: viewX*2, height: viewY*2))
         
         secondLabel.backgroundColor = UIColor.orange
         
@@ -46,7 +46,7 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
         
         self.view.addSubview(secondLabel)
         
-        thirdLabel = UILabel(frame: CGRect(x: viewX, y: viewY*10, width: viewX*2, height: viewY*2))
+        thirdLabel = UILabel(frame: CGRect(x: viewX, y: viewY*8, width: viewX*2, height: viewY*2))
         
         thirdLabel.backgroundColor = UIColor.orange
         
